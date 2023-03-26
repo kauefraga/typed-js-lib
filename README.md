@@ -3,9 +3,29 @@
 > 📦 An easy and ready-to-publish library boilerplate with JavaScript.
 
 ### Features
+- Ready for use! Just install it and code!!
 - All written in JavaScript (i.e. no compilation time)
+- We are using the [Airbnb Style Guide](https://www.npmjs.com/package/eslint-config-airbnb-base) to Javascript.
 
-## 🚧 Work in progress
+## ⬇️ How to download and use it
+1. Clone the repository and change the name
+2. Install the dependencies
+3. Build and start
+
+```bash
+git clone https://github.com/kauefraga/typed-js-lib.git {your-project-name}
+cd {your-project-name}
+
+pnpm i --frozen-lockfile
+
+pnpm build
+pnpm start
+```
+We are using [PNPM](https://pnpm.io) however feel free to change it to one of your preference.
+
+## 🛠 Technologies
+- [Eslint Airbnb Base](https://www.npmjs.com/package/eslint-config-airbnb-base)
+- [Typescript](https://typescriptlang.org) and [tsx](https://www.npmjs.com/package/tsx) - Improve the DX by adding type safety and a blazingly fast execution provided by esbuild.
 
 ## 📝 License
 
