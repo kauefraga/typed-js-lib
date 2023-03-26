@@ -1,0 +1,18 @@
+{
+  "name": "typed-js-lib",
+  "version": "0.0.1",
+  "description": "📦 An easy and ready-to-publish library boilerplate with JavaScript",
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "keywords": [],
+  "repository": "https://github.com/kauefraga/typed-js-lib.git",
+  "bugs": "https://github.com/kauefraga/typed-js-lib/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.12.1",
+    "pnpm": ">=7.16.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
