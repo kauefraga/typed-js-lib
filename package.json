@@ -11,10 +11,16 @@
     "node": ">=18.12.1",
     "pnpm": ">=7.16.1"
   },
-  "files": [],
-  "main": "index.js",
+  "files": [
+    "lib/",
+    "dist/"
+  ],
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "tsc",
+    "lint": "eslint --ext .js"
   },
   "devDependencies": {
     "@types/node": "^18.15.10",
