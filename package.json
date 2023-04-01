@@ -21,10 +21,12 @@
   "scripts": {
     "prepublishOnly": "tsc",
     "test": "vitest",
+    "coverage": "vitest --run coverage",
     "lint": "eslint --ext .js"
   },
   "devDependencies": {
     "@types/node": "^18.15.10",
+    "@vitest/coverage-c8": "^0.29.8",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "^2.25.2",
