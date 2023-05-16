@@ -25,7 +25,7 @@ We are using [PNPM](https://pnpm.io) however feel free to change it to one of yo
 
 ## 🛠 Technologies
 - [Eslint Airbnb Base](https://www.npmjs.com/package/eslint-config-airbnb-base)
-- [Vitest] - Vitest is a blazing fast unit test framework powered by Vite.
+- [Vitest](https://vitest.dev) - Vitest is a blazing fast unit test framework powered by Vite.
 - [Typescript](https://typescriptlang.org) and [tsx](https://www.npmjs.com/package/tsx) - Improve the DX by adding type safety and a blazingly fast execution provided by esbuild.
 
 ## 📝 License
